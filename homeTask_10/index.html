@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашняя Работа №10</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Карточки запросы-поддержки</h2>
+        <div class="request-form">
+            <input type="text" class="request-input" id="requestNumber" placeholder="Номер запроса">
+            <input type="date" class="request-input" id="requestDate" placeholder="Дата создания">
+            <input type="text" class="request-input" id="requestDescription" placeholder="Описание">
+            <input type="text" class="request-input" id="requestStatus" placeholder="Статус">
+
+            <button onclick="addRequest()" class="request-button" id="requestBtn">Добавить запрос</button>
+        </div>
+        <div class="request-list" id="requestList"></div>
+    </div>
+    
+    <script defer src="main.js"></script>
+</body>
+</html>

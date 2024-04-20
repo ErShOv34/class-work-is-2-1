@@ -1,0 +1,60 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+:root {
+    --color-pink: #FFAAFF;
+    --color-orange: #FF8000;
+    --color-yellow: #FFFF00;
+    --font-sans: sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.request-form {
+    margin-bottom: 20px;
+}
+
+.request-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.request-button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-pink);
+    color: var(--color-yellow);
+    border-radius: 25px;
+    border: var(--color-orange);
+    cursor: pointer;
+}
+
+.request-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid var(--color-pink);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.orange {
+    background-color: var(--color-orange);
+}
+
+.yellow {
+    background-color: var(--color-yellow);
+}
+
+.pink {
+    background-color: var(--color-pink);
+}
