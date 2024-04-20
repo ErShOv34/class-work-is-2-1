@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="wipper">
+        <h1 class="title">Рассчет стоимости электроники</h1>
+        <div class="form" id="form">
+            <label for="amount-1">Кол-во ноутбуков:</label>
+            <input type="text" class="work" id="amount-1">
+            <label for="cost-1">Цена ноутбука:</label>
+            <input type="text" class="work" id="cost-1">
+            <br><br>
+            <label for="amount-2">Кол-во смартфонов:</label>
+            <input type="text" class="work" id="amount-2">
+            <label for="cost-2">Цена смартфона:</label>
+            <input type="text" class="work" id="cost-2">
+            <br><br>
+            <label for="amount-3">Кол-во планшетов:</label>
+            <input type="text" class="work" id="amount-3">
+            <label for="cost-3">Цена планшета:</label>
+            <input type="text" class="work" id="cost-3">
+            <br><br>
+            <button id="saveBtn" onclick="calculate()">Расcчитать</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
